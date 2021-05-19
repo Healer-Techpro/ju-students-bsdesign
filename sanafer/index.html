@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>sanafer</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section>
+        <div id="multple-step-form-n" class="container overflow-hidden" style="margin-top: 0px;margin-bottom: 10px;padding-bottom: 300px;padding-top: 57px;">
+            <div id="progress-bar-button" class="multisteps-form">
+                <div class="row">
+                    <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+                        <div class="multisteps-form__progress">
+                            <a class="btn multisteps-form__progress-btn js-active" role="button" title="User Info">البيانات المطلوبة</a>
+                            <a class="btn multisteps-form__progress-btn" role="button" title="User Info">الصورة</a>
+                            <a class="btn multisteps-form__progress-btn" role="button" title="User Info">التواصل&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="multistep-start-row" class="row">
+                <div id="multistep-start-column" class="col-12 col-lg-8 m-auto">
+                    <form id="main-form" class="multisteps-form__form">
+                        <div id="single-form-next" class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                            <h3 class="text-center multisteps-form__title">بيانات الطالب</h3>
+                            <div id="form-content" class="multisteps-form__content">
+                                <div id="input-grp-double" class="form-row mt-4">
+                                    <div class="col-12 col-sm-6">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="الاسم الاول ">
+                                    </div>
+                                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="الاسم الثاني">
+                                    </div>
+                                </div>
+                                <div id="input-grp-double" class="form-row mt-4">
+                                    <div class="col-12 col-sm-6">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="الرقم الجامعي ">
+                                    </div>
+                                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="اسم الكلية">
+                                    </div>
+                                </div>
+                                <div id="input-grp-double" class="form-row mt-4">
+                                    <div class="col-12 col-sm-6">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="رقم الهاتف ">
+                                    </div>
+                                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                        <input class="form-control multisteps-form__input" type="text" placeholder="التخصص">
+                                    </div>
+                                </div>
+                                <div id="next-button" class="button-row d-flex mt-4"><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                            </div>
+                        </div>
+                        <div id="single-form-next-prev" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                            <div id="form-content-1" class="multisteps-form__content">
+                                <div class="dashed_upload"><div class="wrapper">
+  <div class="drop">
+    <div class="cont">
+      <i class="fa fa-cloud-upload"></i>
+      <div class="tit">
+        اسحب واترك لرفع الصورة
+      </div>
+      <div class="desc">
+        أو
+      </div>
+      <div class="browse">
+        صورة من ملف
+      </div>
+    </div>
+    <output id="list"></output><input id="files" multiple name="files[]" type="file" />
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script></div>
+                                <div id="next-prev-buttons" class="button-row d-flex mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                            </div>
+                        </div>
+                        <div id="single-form-next-prev-1" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                            <h3 class="text-center multisteps-form__title">About</h3>
+                            <div id="form-content-2" class="multisteps-form__content">
+                                <div id="input-grp-double-2" class="form-row mt-4">
+                                    <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="First name "></div>
+                                    <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="Last name "></div>
+                                </div>
+                                <div id="input-grp-single-2" class="form-row mt-4">
+                                    <div class="col-12"><input class="form-control multisteps-form__input" type="text" placeholder="House"></div>
+                                </div>
+                                <div id="next-prev-buttons-1" class="button-row d-flex mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Multi-step-form.js"></script>
+</body>
+
+</html>
