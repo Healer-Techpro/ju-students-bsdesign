@@ -1,0 +1,56 @@
+/* Faq section */
+
+.sub-accord {
+  padding-top: 25px;
+}
+
+.sub-accord div.main-accord div p.accordion-subject.active, p.accordion-subject:hover {
+  background-color: #8D2283;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.sub-accord div.main-accord div p.accordion-subject.active:before {
+  content: "-";
+  position: absolute;
+  float: left;
+  margin-top: -55px;
+  right: 5px;
+  color: #8D2283;
+}
+
+.accordion-subject:before {
+  position: absolute;
+  content: '+';
+  font-weight: 800;
+  font-size: 50px;
+  right: 0px;
+  float: left;
+  color: #8D2283;
+  margin-top: -54px;
+}
+
+.accordion-subject {
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  div.panel-subject {
+    padding: 8px 18px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .panel-subject {
+    background-color: white;
+    margin-bottom: 10px;
+  }
+}
+
